@@ -1,6 +1,26 @@
+.widget {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 
-.widget_block {
-  margin: 600px 15px;
-  
-
+  &__chat {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__chat-img {
+    width: 65px;
+    height: 65px;
+    background-color: #08c;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      transition: box-shadow 0.4s ease-out;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    }
+  }
 }

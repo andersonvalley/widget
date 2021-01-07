@@ -1,5 +1,5 @@
 import React from 'react';
-// import Widget from './components/widget/Widget'
+import Widget from './components/widget/Widget'
 import Main from './MAIN_FRONT/Main'
 
 function App() {
@@ -8,8 +8,7 @@ function App() {
     <div className="App">
 
 
-      <Main />
-      
+      <Widget />
     </div>
   );
 }
