@@ -1,9 +1,10 @@
-import './App.css';
+import React from 'react';
+import Widget from './components/widget/Widget'
 
 function App() {
   return (
     <div className="App">
-     <h1>hello</h1>
+     <Widget />
     </div>
   );
 }
