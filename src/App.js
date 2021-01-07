@@ -1,6 +1,7 @@
 import React from 'react';
 import Widget from './components/widget/Widget'
 import Header from './components/header/Header'
+import Settings from './components/settings/Settings'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
 
       <Header />
       <Widget />
+      <Settings />
     </div>
   );
 }
