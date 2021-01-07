@@ -2,6 +2,9 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column-reverse;
 
   &__chat {
     width: 120px;
@@ -10,17 +13,39 @@
     align-items: center;
     justify-content: center;
   }
+
   &__chat-img {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.386);
+    transition: box-shadow 0.4s ease-out;
     width: 65px;
     height: 65px;
-    background-color: #08c;
+    background-color: rgb(4, 146, 216);
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     &:hover {
       transition: box-shadow 0.4s ease-out;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+      background-color: rgb(3, 128, 191);
+    }
+  }
+  &__main {
+    margin-bottom: -15px;
+  }
+  &__main-social {
+    width: 120px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .inst {
+      background-color: #c10d58;
+    }
+    .vk {
+      background-color: #1980d5;
     }
   }
 }
+
