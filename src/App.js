@@ -4,6 +4,7 @@ import Header from './components/header/Header'
 import Settings from './components/settings/Settings'
 import vk from './img/vk.svg'
 import inst from './img/inst.svg'
+import CreateWidget from './components/CreateWidget/CreateWidget'
 
 class App extends React.Component {
 
@@ -16,30 +17,14 @@ class App extends React.Component {
 
   render() {
 
-<<<<<<< HEAD
-import CreateWidget from './components/CreateWidget/CreateWidget';
-
-
-function App() {
-  return (
-=======
->>>>>>> 1ddece0731a65ff0ed2e989297c3dd73b124bb90
     
 
-<<<<<<< HEAD
-
-      <Header />
-      <CreateWidget />
-      <Widget />
-      
-    </div>
-  );
-=======
     return (
 
       <div className="App">
 
         <Header />
+        <CreateWidget />
         <Widget />
 
         {
@@ -59,7 +44,6 @@ function App() {
     );
 
   }
->>>>>>> 1ddece0731a65ff0ed2e989297c3dd73b124bb90
 }
 
 export default App;

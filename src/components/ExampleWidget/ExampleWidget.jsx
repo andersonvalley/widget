@@ -1,5 +1,5 @@
 import React from 'react'
-import exampleWidget from './exampleWidget.scss'
+import './exampleWidget.scss'
 import bin from '../../img/bin.svg'
 import change from '../../img/change.svg'
 

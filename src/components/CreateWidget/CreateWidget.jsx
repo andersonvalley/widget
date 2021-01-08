@@ -1,10 +1,6 @@
 import React from 'react'
-import create from './create.scss'
+import './create.scss'
 import ExampleWidget from '../ExampleWidget/ExampleWidget.jsx'
-
-
-
-
 
 function CreateWidget() {
     return (
