@@ -1,19 +1,13 @@
 import React from 'react';
 import Widget from './components/widget/Widget'
 import Header from './components/header/Header'
+import Footer from './components/CreateWidget/Footer'
 import Settings from './components/settings/Settings'
-import vk from './img/vk.svg'
-import inst from './img/inst.svg'
 import CreateWidget from './components/CreateWidget/CreateWidget'
 
-class App extends React.Component {
+import {Route} from 'react-router-dom'
 
-  state = {
-    social: [
-      { title: 'vk', photo: { vk }, color: '#000' },
-      { title: 'inst', photo: { inst } }
-    ]
-  }
+class App extends React.Component {
 
   render() {
 
@@ -23,23 +17,20 @@ class App extends React.Component {
 
       <div className="App">
 
-        <Header />
-        <CreateWidget />
-        <Widget />
+        {/*localhost:3000*/}
+        {/* <Route path="/" exact render={() => <h1>Home</h1>}/>
+        <Route path="/" exact render={() => <h1>Home</h1>} /> */}
+        <Route path="/settings" exact component={Header} />
+        <Route path="/settings" exact component={Widget} />
+        <Route path="/settings" exact component={Settings} />
+        <Route path="/settings" exact component={Footer} />
 
-        {
-          this.state.social.map((item, index) => {
-            
-            return (
-                
-              <Settings 
-                title={item.title}
-                photo={item.photo}
-                key={index}
-              />
-            )
-          })
-        }
+        
+        <Route path="/" exact component={Header} />
+        <Route path="/" exact component={CreateWidget} />
+        <Route path="/" exact component={Widget} />
+        <Route path="/" exact component={Footer} />
+
       </div>
     );
 

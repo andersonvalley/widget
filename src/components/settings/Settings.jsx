@@ -8,21 +8,7 @@ class Settings extends React.Component {
 
     return (
       <div className="settings">
-        
-
-        <div className="choose__widget">
-          <div className="widget__main-social">
-            <div className="widget__chat-img vk settings-s">
-              <img src={this.props.photo} alt={this.props.title} />
-            </div>
-          </div>
-
-          {/* <div className="widget__main-social">
-                  <div className="widget__chat-img inst">
-                    <img src={inst} alt="" />
-                  </div>
-                </div> */}
-        </div>
+      <h1>settings</h1>
     
       </div>
     )
