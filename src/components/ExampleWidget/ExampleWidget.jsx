@@ -1,5 +1,5 @@
 import React from 'react'
-import exampleWidget from './exampleWidget.scss'
+import './exampleWidget.scss'
 import bin from '../../img/bin.svg'
 import change from '../../img/change.svg'
 
@@ -12,10 +12,10 @@ function ExampleWidget() {
         <div>
             <div className="example_widget">
                     <div className="example_other_simbol">
-                        <a className="example_simbol_bin" href="">
+                        <a className="example_simbol_bin" href="/">
                             <img className="bin_set" src={bin} alt=""/>
                         </a>
-                        <a className="example_simbol_change" href="">
+                        <a className="example_simbol_change" href="/">
                             <img className="change_set" src={change} alt=""/>
                         </a>
                     </div>
@@ -29,7 +29,7 @@ function ExampleWidget() {
                         Тестовое время на 3 месяца
                     </div>
                     <div className="example_different_moves">
-                        <a className="back_call" href="">
+                        <a className="back_call" href="/">
                             <button className="back_call_btn">
                                 Обратный звонок
                             </button>
@@ -37,7 +37,7 @@ function ExampleWidget() {
                     
                     </div>
                     <div className="example_messengers">
-                    <a className="messengers" href="">
+                    <a className="messengers" href="/">
                         <button className="messengers_btn">
                             Мессенджеры
                         </button>

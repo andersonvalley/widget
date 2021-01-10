@@ -5,3 +5,140 @@
 .settings-s {
   background-color: #e5e5e5!important;
 }
+
+
+.settings_section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.settings_section_choose_options {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+.settings_buttons {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-left: 200px;
+  display: flex;
+}
+
+
+.settings_btn_cancel {
+  box-shadow: 0 0 3px 0 #ccc;
+  color: #000;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 5rem/5rem;
+  transition: color .2s linear;
+  margin-right: 40px;
+}
+
+.settings_btn_cancel:hover {
+  color: rgb(0, 183, 255);
+}
+
+
+.settings_btn_save {
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(0, 183, 255);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5rem/5rem;
+    transition: background-color .2s linear;
+    margin-bottom: 30px;
+}
+
+.settings_btn_save:hover {
+  background-color: rgb(86, 207, 255);
+}
+
+
+.settings_name {
+  margin-left: 200px;
+}
+
+.settings_adress {
+  margin-left: 200px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid  rgb(218, 216, 216);
+  margin-bottom: 30px;
+  width: 600px;
+  height: 30px;
+  margin-top: 8px;
+
+}
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+
+
+input:focus {
+   border-bottom: 2px solid rgb(86, 207, 255);
+}
+
+
+.settings_choose_options {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.settings_choose_btn {
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(250, 250, 250);
+  border-bottom: 3px solid rgb(0, 183, 255);
+}
+
+.settings_choose_btn_second {
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(250, 250, 250);
+  border-bottom: none;
+}
+
+.settings_messengers {
+  display: flex;
+  margin: 0 0 0 1px;
+}
+
+
+.messengers_img { 
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+
+.messengers_enter_data {
+  border: none;
+  border-bottom: 2px solid  rgb(218, 216, 216);
+  margin-bottom: 30px;
+  width: 400px;
+  height: 30px;
+  margin-top: 8px;
+}
+
+.messengers_enter_data:focus {
+  border-bottom: 2px solid rgb(86, 207, 255);
+}
