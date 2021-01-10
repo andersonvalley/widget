@@ -3,6 +3,7 @@ import exampleWidget from './exampleWidget.scss'
 import bin from '../../img/bin.svg'
 import change from '../../img/change.svg'
 
+
 // const adressSite = - here will be adress site
 // const testingTime = - here will be testing time
 
@@ -44,8 +45,15 @@ function ExampleWidget() {
                     </div>
                 </div>
             </div>
+
+        
     )
+
+
 }
+
+
+
 
 
 
